@@ -182,13 +182,65 @@
     <Resource Include="logo_R5w_icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Align_Center.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Align_Right.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Align_Justified.jpg" />
+    <Resource Include="Visuals\191005-gordon-sondland-ap-773.jpg" />
+    <Resource Include="Visuals\191031-trump-florida-gty-773.jpg" />
+    <Resource Include="Visuals\19114-marie-yovanovitch-ap-773.jpg" />
+    <Resource Include="Visuals\20191103-jimmy-carter-ap-773.jpg" />
+    <Resource Include="Visuals\20191104-bernie-iowa-ap-773.jpg" />
+    <Resource Include="Visuals\20191104-warren-signs-gty-773.jpg" />
+    <Resource Include="Visuals\2020 Image.jpg" />
+    <Resource Include="Visuals\2c409c3f-8066-43f0-b2b3-0c71943016af-large16x9_1280x960_71110C00AIBUQ.jpg" />
+    <Resource Include="Visuals\A1.jpg" />
+    <Resource Include="Visuals\A10.jpg" />
+    <Resource Include="Visuals\A11.jpg" />
+    <Resource Include="Visuals\A12.jpg" />
+    <Resource Include="Visuals\A13.jpg" />
+    <Resource Include="Visuals\A14.jpg" />
+    <Resource Include="Visuals\A15.jpg" />
+    <Resource Include="Visuals\A2.jpg" />
+    <Resource Include="Visuals\A3.jpg" />
+    <Resource Include="Visuals\A4.jpg" />
+    <Resource Include="Visuals\A6.jpg" />
+    <Resource Include="Visuals\A6Shaded.png" />
+    <Resource Include="Visuals\A7.jpg" />
+    <Resource Include="Visuals\A8.jpg" />
+    <Resource Include="Visuals\A9.jpg" />
+    <Resource Include="Visuals\Align_Center.jpg" />
+    <Resource Include="Visuals\Align_Justified.jpg" />
+    <Resource Include="Visuals\Align_left.jpg" />
+    <Resource Include="Visuals\Align_Right.jpg" />
+    <Resource Include="Visuals\alpine-high-school.jpg" />
+    <Resource Include="Visuals\Annotation 2019-10-10 095719.jpg" />
+    <Resource Include="Visuals\Banner_01.png" />
+    <Resource Include="Visuals\Beto.jpg" />
+    <Resource Include="Visuals\Bold.jpg" />
+    <Resource Include="Visuals\BOTSPAN.jpg" />
+    <Resource Include="Visuals\Code01.jpg" />
+    <Resource Include="Visuals\Comonero.jpg" />
+    <Resource Include="Visuals\Comonero2.jpg" />
+    <Resource Include="Visuals\CrimeScene.jpg" />
+    <Resource Include="Visuals\Italic.jpg" />
+    <Resource Include="Visuals\Lobo.jpg" />
+    <Resource Include="Visuals\Lobo2.jpg" />
+    <Resource Include="Visuals\Logo.png" />
+    <Resource Include="Visuals\Logo2.png" />
+    <Resource Include="Visuals\logo_R5w_icon.ico" />
+    <Resource Include="Visuals\Monin.png" />
+    <Resource Include="Visuals\Monin2.png" />
+    <Resource Include="Visuals\Monito.jpg" />
+    <Resource Include="Visuals\Monito.png" />
+    <Resource Include="Visuals\Shippy.png" />
+    <Resource Include="Visuals\shutterstock_1068141515.jpg" />
+    <Resource Include="Visuals\SRFrontier-Logos-Full-Color.png" />
+    <Resource Include="Visuals\TopPanel_Shade.png" />
+    <Resource Include="Visuals\TopPanel_Shade2.png" />
+    <Resource Include="Visuals\Tree.jpg" />
+    <Resource Include="Visuals\Von-Braun-Station-Space-Hotel-Featured-image.jpg" />
+    <Resource Include="Visuals\W1.jpg" />
+    <Resource Include="Visuals\W2.jpg" />
+    <Resource Include="Visuals\W3.jpg" />
+    <Resource Include="Visuals\W4.jpg" />
+    <Resource Include="Visuals\W_01.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

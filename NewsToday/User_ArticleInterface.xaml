@@ -69,7 +69,7 @@
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="30" Margin="738,169,0,0" VerticalAlignment="Top" Width="30">
             <Button x:Name="Button_Align_Left" Cursor="Hand" Style="{StaticResource RoundButtonTemplate}" Content="" HorizontalAlignment="Left" Margin="-1" VerticalAlignment="Top" Width="30" Height="30" Click="Button_Align_Left_Click">
                 <Button.Background>
-                    <ImageBrush ImageSource="C:\Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\Pictures\Align_Left.jpg"/>
+                    <ImageBrush ImageSource="\Pictures\Align_Left.jpg"/>
                 </Button.Background>
             </Button>
         </Border>
