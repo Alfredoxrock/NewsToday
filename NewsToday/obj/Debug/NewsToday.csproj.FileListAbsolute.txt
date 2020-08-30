@@ -112,3 +112,10 @@ D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\User_ArticleInterfa
 D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\Window1.baml
 D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\NewsToday.g.resources
 D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\NewsToday.pdb
+D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\bin\Debug\NewsToday.exe.config
+D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\bin\Debug\NewsToday.exe
+D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\bin\Debug\NewsToday.pdb
+D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\NewsToday.Properties.Resources.resources
+D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\NewsToday.csproj.GenerateResource.cache
+D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\NewsToday.csproj.CoreCompileInputs.cache
+D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\NewsToday.exe
