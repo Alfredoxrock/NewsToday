@@ -1,0 +1,34 @@
+﻿<Window x:Class="NewsToday.Article_Preview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewsToday"
+        mc:Ignorable="d"
+        Title="Enews" Height="5000" Width="1388.303" WindowState="Maximized">
+    <Grid ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <ScrollViewer Margin="0,0,-0.5,10.5">
+            <StackPanel HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="1333">
+                <Label Content="CATEGORY" x:Name="Label_Category" VerticalContentAlignment="Center" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="568,0,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="20" Foreground="Red" Width="220" Height="84"/>
+                <TextBox x:Name="Textblock_Headline" IsReadOnly="True" BorderThickness="0" HorizontalAlignment="Left" Height="Auto" HorizontalContentAlignment="Center" TextWrapping="Wrap" Text="TextBox" Width="1163" FontFamily="Century Gothic" FontSize="60" FontWeight="Bold" VerticalAlignment="Top" Margin="108,0,0,0" />
+                <TextBox x:Name="Textbox_Byline" IsReadOnly="True" BorderThickness="0" HorizontalAlignment="Left" Foreground="Gray" HorizontalContentAlignment="Center" Height="48" TextWrapping="Wrap" Text="Byline" VerticalAlignment="Top" Width="1163" FontFamily="Century Gothic" FontSize="20" Margin="108,0,0,0"/>
+
+                <Grid HorizontalAlignment="Center" Height="524" Margin="43,0,62,0" VerticalAlignment="Top" Width="1228">
+                    <Image x:Name="Image_ArticleCover" Stretch="Fill" HorizontalAlignment="Left" Width="1163" Margin="65,10,0,-10"/>
+                </Grid>
+                <Border Background="White" Height="40"/>
+                <TextBox x:Name="Textbox_AuthorAndTime" Text="AUTHOR" IsReadOnly="True" BorderThickness="0" FontSize="26" Foreground="Gray" HorizontalContentAlignment="Right" Margin="0,0,62,0"/>
+                <RichTextBox x:Name="RichTextBox_ArticleDisplay" BorderThickness="0" HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="1163" Margin="108,0,0,0" >
+                    <FlowDocument>
+                        <Paragraph>
+                            <Run Text=""/>
+                        </Paragraph>
+                    </FlowDocument>
+                </RichTextBox>
+                <Button Height="60" Cursor="Hand" Style="{StaticResource RoundButtonTemplate}" Width="400" Content="RETURN" FontFamily="Century Gothic" Foreground="White" Background="Red" FontSize="28" BorderThickness="0" Click="Button_Click" Margin="466,0,467,0"/>
+
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Window>

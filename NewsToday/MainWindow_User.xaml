@@ -1,0 +1,219 @@
+﻿<Window x:Class="NewsToday.MainWindow_User"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewsToday"
+        xmlns:vms="clr-namespace:NewsToday.ViewModels"
+        mc:Ignorable="d"
+        Title="Enews" Height="3863.5" Width="1355.5" WindowState="Maximized" ResizeMode="NoResize">
+    <Window.DataContext>
+        <vms:MainWindowViewModel/>
+    </Window.DataContext>
+
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\Pictures\W4.jpg"/>
+    </Window.Background>
+    <Grid Height="Auto">
+        <ScrollViewer>
+            <StackPanel Height="Auto">
+
+                <Grid Background="White" Width="1340" Height="3831">
+                    <Border BorderThickness="3" Background="Red" BorderBrush="Red" Margin="263,86,78,3631" RenderTransformOrigin="0.5,0.5">
+                        <Label Content="HOME" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontFamily="Century Gothic" FontSize="70" FontStretch="Expanded" FontWeight="Bold"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" Background="Red" BorderThickness="0" HorizontalAlignment="Left" Height="2" Margin="10,843,0,0" VerticalAlignment="Top" Width="1320"/>
+
+                    <Image HorizontalAlignment="Left" Height="299" Margin="10,477,0,0" VerticalAlignment="Top" Width="230" Source="C:\Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\Pictures\Lobo.jpg"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="24,752,0,0" TextWrapping="Wrap" Text="PRIDE" VerticalAlignment="Top" FontSize="72" Width="216" FontFamily="Harrington" TextAlignment="Center" Height="86"/>
+
+
+
+                    <Label Content="ENEWS" HorizontalAlignment="Left" Margin="108,26,0,0" VerticalAlignment="Top" Width="126" Height="70" FontSize="36" FontFamily="Dubai Medium" Foreground="Black"/>
+                    <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\Pictures\Logo.png"/>
+                    <Canvas x:Name="TopPanel" HorizontalAlignment="Left" Height="48" Margin="261,33,0,0" VerticalAlignment="Top" Width="1075" Background="Transparent">
+                        <Button
+            Style="{StaticResource RoundButtonTemplate}" 
+            Width="106" Height="48" BorderBrush="#fff" x:Name="Button_Home" Content="HOME" Foreground="Black"
+            Background="Transparent" FontSize="28" FontFamily="Century Gothic" Cursor="Hand" MouseEnter="Button_Home_MouseEnter" MouseLeave="Button_Home_MouseLeave" 
+                
+            />
+
+
+                        <Button
+                Style="{StaticResource RoundButtonTemplate}" Cursor="Hand"
+                Width="135" Height="48" BorderBrush="#fff" x:Name="Button_News" Content="NEWS" Background="Transparent" Foreground="Black"
+                FontSize="28" FontFamily="Century Gothic" Canvas.Left="111" Click="Button_News_Click" 
+            />
+
+                        <Button
+                Style="{StaticResource RoundButtonTemplate}"
+                Width="140" Height="48" BorderBrush="#fff" x:Name="Button_Politis" Content="POLITICS" Background="Transparent" Foreground="Black"
+                FontSize="28" FontFamily="Century Gothic" Canvas.Left="246" Cursor="Hand" MouseEnter="Button_Politis_MouseEnter" MouseLeave="Button_Politis_MouseLeave" Click="Button_Politis_Click"
+             />
+                        <Button
+                Style="{StaticResource RoundButtonTemplate}"
+                Width="140" Height="48" BorderBrush="#fff" x:Name="Button_Opinion" Content="OPINION" Background="Transparent" Foreground="Black"
+                FontSize="28" FontFamily="Century Gothic" Canvas.Left="391" Cursor="Hand" MouseEnter="Button_Opinion_MouseEnter" MouseLeave="Button_Opinion_MouseLeave" Click="Button_Opinion_Click"
+             />
+                        <Button
+                Style="{StaticResource RoundButtonTemplate}"
+                Width="140" Height="48" BorderBrush="#fff" x:Name="Button_Sports" Content="SPORTS" Background="Transparent" Foreground="Black"
+                FontSize="28" FontFamily="Century Gothic" Canvas.Left="536" Cursor="Hand" MouseEnter="Button_Sports_MouseEnter" MouseLeave="Button_Sports_MouseLeave" Click="Button_Sports_Click"
+             />
+                        <Button
+                Style="{StaticResource RoundButtonTemplate}"
+                Width="231" Height="48" BorderBrush="#fff" x:Name="Button_Entertainment" Content="ENTERTAINMENT" Background="Transparent" Foreground="Black"
+                FontSize="28" FontFamily="Century Gothic" Canvas.Left="676" Cursor="Hand" MouseEnter="Button_Entertainment_MouseEnter" MouseLeave="Button_Entertainment_MouseLeave" Click="Button_Entertainment_Click"
+             />
+                        <Button
+                Style="{StaticResource RoundButtonTemplate}"
+                Width="163" Height="48" BorderBrush="#fff" x:Name="Button_Social" Content="SOCIAL" Background="Transparent" Foreground="Black"
+                FontSize="28" FontFamily="Century Gothic" Canvas.Left="912" Cursor="Hand" MouseEnter="Button_Social_MouseEnter" MouseLeave="Button_Social_MouseLeave" Click="Button_Social_Click"
+             />
+
+
+
+                    </Canvas>
+
+
+                    <ListBox HorizontalAlignment="Left"  Cursor="Hand" PreviewMouseLeftButtonUp="listView_Click" x:Name="Listbox_articleItems" Height="2959" ScrollViewer.CanContentScroll="False" 
+                 Margin="10,872,0,0" VerticalAlignment="Top" Width="1326" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                 ItemsSource="{Binding NewsArticles}">
+
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="1233" Height="322">
+                                    <Image HorizontalAlignment="Left" Source="{Binding SourceImg}" Height="302" Margin="12,10,0,0" VerticalAlignment="Top" Width="383"/>
+                                    <TextBlock Text="{Binding Title}" TextWrapping="Wrap" Background="Transparent"  Margin="456,10,63,186" FontFamily="Century Gothic" FontSize="30" FontWeight="Bold" Foreground="Black"/>
+                                    <TextBlock Text="{Binding Byline}" TextWrapping="Wrap" FontFamily="Century Gothic" FontSize="26" Margin="456,136,92,34" />
+                                    <TextBlock Text="{Binding DateTime}" TextWrapping="Wrap" FontFamily="Century Gothic" FontSize="18" Foreground="Gray" Margin="456,111,453,162" />
+                                    <TextBlock Text="{Binding Author}" FontFamily="Century Gothic" FontSize="18" Foreground="Gray" Margin="693,111,217,162" />
+                                    <TextBlock Text="BY" FontFamily="Century Gothic" FontSize="18" Foreground="Gray" Margin="654,111,543,162" />
+                                    <Border Background="Gray" Margin="0,315,0,5" Height="2"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+
+                    </ListBox>
+
+                    <ListBox x:Name="Listbox_OneItemFirst" HorizontalAlignment="Left" Cursor="Hand" Height="326" Margin="261,218,0,0" VerticalAlignment="Top" Width="541" PreviewMouseLeftButtonUp="listView_Click2"
+                             ScrollViewer.CanContentScroll="False" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding OneArticle}"
+                             ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="541" Height="326" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <Image HorizontalAlignment="Center" Stretch="UniformToFill" Source="{Binding SourceImg}"/>
+                                    <StackPanel VerticalAlignment="Bottom">
+                                        <TextBlock Text="{Binding Title}" TextWrapping="Wrap" Foreground="White" FontFamily="Century Gothic" FontSize="22" FontWeight="Bold" VerticalAlignment="Bottom" Margin="15,5" TextAlignment="Left"/>
+                                        <TextBlock Text="{Binding Byline}" TextWrapping="Wrap" Foreground="White" FontFamily="Century Gothic" FontSize="16" FontWeight="Bold" VerticalAlignment="Bottom" Margin="15,15"/>
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+
+
+                    <ListBox x:Name="Listbox_OneItemSecond" HorizontalAlignment="Left" Cursor="Hand" Height="163" Margin="823,218,0,0" VerticalAlignment="Top" Width="438" PreviewMouseLeftButtonUp="listView_Click3"
+                             ScrollViewer.CanContentScroll="False" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding OneArticle2}"
+                             ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="437" Height="163" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <Image HorizontalAlignment="Center" Stretch="UniformToFill" Source="{Binding SourceImg}"/>
+                                    <StackPanel VerticalAlignment="Bottom">
+                                        <TextBlock Text="{Binding Title}" TextWrapping="Wrap" Foreground="White" FontFamily="Century Gothic" FontSize="22" FontWeight="Bold" VerticalAlignment="Bottom" Margin="15,5" TextAlignment="Left"/>
+
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <ListBox x:Name="Listbox_OneItemThird" HorizontalAlignment="Left" Cursor="Hand" Height="158" Margin="823,386,0,0" VerticalAlignment="Top" Width="438" PreviewMouseLeftButtonUp="listView_Click4"
+                             ScrollViewer.CanContentScroll="False" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding OneArticle3}"
+                             ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="438" Height="158" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <Image HorizontalAlignment="Center" Stretch="UniformToFill" Source="{Binding SourceImg}"/>
+                                    <StackPanel VerticalAlignment="Bottom">
+                                        <TextBlock Text="{Binding Title}" TextWrapping="Wrap" Foreground="White" FontFamily="Century Gothic" FontSize="22" FontWeight="Bold" VerticalAlignment="Bottom" Margin="15,5" TextAlignment="Left"/>
+
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <ListBox x:Name="Listbox_OneLiner" HorizontalAlignment="Left" Cursor="Hand" Height="240" Margin="261,579,0,0" VerticalAlignment="Top" Width="294" PreviewMouseLeftButtonUp="listView_Click5"
+                             ScrollViewer.CanContentScroll="False" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding OneArticle4}"
+                             ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="274" Height="212" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                                    <StackPanel VerticalAlignment="Top">
+                                        <Border BorderThickness="2" BorderBrush="Black" Width="274" Height="3" Background="Black" VerticalAlignment="Top"/>
+                                        <TextBlock Text="{Binding Title}" TextWrapping="Wrap" Foreground="Black" FontFamily="Century Gothic" FontSize="18" FontWeight="Bold" VerticalAlignment="Top" Margin="15" TextAlignment="Left"/>
+                                        <TextBlock Text="{Binding Byline}" TextWrapping="Wrap" Foreground="Red" FontFamily="Century Gothic" FontSize="16" FontWeight="Bold" VerticalAlignment="Top" Margin="15"/>
+                                        <Border BorderThickness="2" BorderBrush="Black" Width="274" Height="3" Background="Black" VerticalAlignment="Top"/>
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <ListBox x:Name="Listbox_OneLiner2" HorizontalAlignment="Left" Cursor="Hand" Height="240" Margin="594,579,0,0" VerticalAlignment="Top" Width="294" PreviewMouseLeftButtonUp="listView_Click6"
+                             ScrollViewer.CanContentScroll="False" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding OneArticle5}"
+                             ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="274" Height="212" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                                    <StackPanel VerticalAlignment="Top">
+                                        <Border BorderThickness="2" BorderBrush="Black" Width="274" Height="3" Background="Black" VerticalAlignment="Top"/>
+                                        <TextBlock Text="{Binding Title}" TextWrapping="Wrap" Foreground="Black" FontFamily="Century Gothic" FontSize="18" FontWeight="Bold" VerticalAlignment="Top" Margin="15" TextAlignment="Left"/>
+                                        <TextBlock Text="{Binding Byline}" TextWrapping="Wrap" Foreground="Red" FontFamily="Century Gothic" FontSize="16" FontWeight="Bold" VerticalAlignment="Top" Margin="15"/>
+                                        <Border BorderThickness="2" BorderBrush="Black" Width="274" Height="3" Background="Black" VerticalAlignment="Top"/>
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <ListBox x:Name="Listbox_OneLiner3" HorizontalAlignment="Left" Cursor="Hand" Height="240" Margin="938,579,0,0" VerticalAlignment="Top" Width="294" PreviewMouseLeftButtonUp="listView_Click7"
+                             ScrollViewer.CanContentScroll="False" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding OneArticle6}"
+                             ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="274" Height="212" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                                    <StackPanel VerticalAlignment="Top">
+                                        <Border BorderThickness="2" BorderBrush="Black" Width="274" Height="3" Background="Black" VerticalAlignment="Top"/>
+                                        <TextBlock Text="{Binding Title}" TextWrapping="Wrap" Foreground="Black" FontFamily="Century Gothic" FontSize="18" FontWeight="Bold" VerticalAlignment="Top" Margin="15" TextAlignment="Left"/>
+                                        <TextBlock Text="{Binding Byline}" TextWrapping="Wrap" Foreground="Red" FontFamily="Century Gothic" FontSize="16" FontWeight="Bold" VerticalAlignment="Top" Margin="15"/>
+                                        <Border BorderThickness="2" BorderBrush="Black" Width="274" Height="3" Background="Black" VerticalAlignment="Top"/>
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="163" Margin="16,110,0,0" VerticalAlignment="Top" Width="229"/>
+                    <Label Content="Username" x:Name="Label_Username"  HorizontalAlignment="Left" Margin="16,209,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Century Gothic" FontWeight="Bold" Width="229" Height="64"/>
+                    <Label Content="Time" x:Name="Label_Time" HorizontalAlignment="Left" Margin="16,115,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="30" Width="229"/>
+                    <Button x:Name="Button_Post" Style="{StaticResource RoundButtonTemplate}" 
+            Content="POST" HorizontalAlignment="Left" Margin="16,284,0,0" VerticalAlignment="Top" Width="229" Height="54" FontFamily="Century Gothic" 
+            FontSize="20" Background="Red" Foreground="White" BorderThickness="0" Cursor="Hand" Click="Button_Post_Click"/>
+                    <Button x:Name="Button_Exit" Style="{StaticResource RoundButtonTemplate}" 
+            Content="SIGN OUT" HorizontalAlignment="Left" Margin="16,343,0,0" VerticalAlignment="Top" Width="229" Height="54" FontFamily="Century Gothic" 
+            FontSize="20" Background="Red" Foreground="White" BorderThickness="0" Cursor="Hand" Click="Button_Exit_Click"/>
+
+
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

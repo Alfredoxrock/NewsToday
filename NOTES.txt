@@ -1,0 +1,2 @@
+* Make a warning window for article interface when the user doesn't select picture and category it should show a warning
+* Make a display of articles written by the user and probably later add the options delete, edit and so on.
