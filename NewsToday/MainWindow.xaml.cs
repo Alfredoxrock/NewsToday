@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Collections.ObjectModel;
+using NewsToday.Database;
 
 namespace NewsToday
 {
@@ -29,6 +30,7 @@ namespace NewsToday
             //Data.articles.Reverse();
             Helper.loadArticlePreview();
             InitializeComponent();
+            DatabaseHelper.EstablishConnection();
 
             hideBar();
 
