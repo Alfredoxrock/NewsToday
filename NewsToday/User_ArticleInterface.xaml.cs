@@ -127,7 +127,7 @@ namespace NewsToday
             FileStream fstream = new FileStream(@"C:\Users\alf_b\Desktop\NewsToday\NewsToday\bin\Debug\articles_saved\" + Data.articleGetNextID() + ".Rtf", FileMode.Create);
             textRange.Save(fstream, DataFormats.Rtf);
 
-            Article article = new Article(Data.articleGetNextID() ,Someone.currentUser.nickname, DateTime.Now.ToString("MM/dd/yyyy") + " " + DateTime.Now.ToString("hh:mm tt "), Combobox_Category.Text, Someone.currentUser.location.city, Textbox_Title.Text, Textbox_Byline.Text, @"C: \Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\NewsToday\bin\Debug\articles_saved\" + Data.articleGetNextID() + ".Rtf", coverImageSource);
+            Article article = new Article(Data.articleGetNextID() ,Someone.currentUser.nickname, DateTime.Now.ToString("MM/dd/yyyy") + " " + DateTime.Now.ToString("hh:mm tt "), Combobox_Category.Text, Someone.currentUser.location.city, Textbox_Title.Text, Textbox_Byline.Text, @"C:\Users\alf_b\Desktop\NewsToday\NewsToday\bin\Debug\articles_saved\" + Data.articleGetNextID() + ".Rtf", coverImageSource);
             Data.addArticle(article);
 
             this.Hide();
@@ -142,7 +142,7 @@ namespace NewsToday
             FileStream fstream = new FileStream(@"C:\Users\alf_b\Desktop\NewsToday\NewsToday\bin\Debug\articlesPreview_saved\" + Data.articlePreviewGetNextID() + ".Rtf", FileMode.Create);
             textRange.Save(fstream, DataFormats.Rtf);
 
-            Article article = new Article(Data.articlePreviewGetNextID(), Someone.currentUser.nickname, DateTime.Now.ToString("MM/dd/yyyy") + " " + DateTime.Now.ToString("hh:mm tt "), Combobox_Category.Text, Someone.currentUser.location.city, Textbox_Title.Text, Textbox_Byline.Text, @"C:\Users\alf_b\Desktop\Fall 2019\Senior Capstone\NewsToday\NewsToday\bin\Debug\articlesPreview_saved\" + Data.articlePreviewGetNextID() + ".Rtf", coverImageSource);
+            Article article = new Article(Data.articlePreviewGetNextID(), Someone.currentUser.nickname, DateTime.Now.ToString("MM/dd/yyyy") + " " + DateTime.Now.ToString("hh:mm tt "), Combobox_Category.Text, Someone.currentUser.location.city, Textbox_Title.Text, Textbox_Byline.Text, @"C:\Users\alf_b\Desktop\NewsToday\NewsToday\bin\Debug\articlesPreview_saved\" + Data.articlePreviewGetNextID() + ".Rtf", coverImageSource);
             Data.addArticlePreview(article);
 
             //Label_Tester.Content = article.articleID.ToString();
