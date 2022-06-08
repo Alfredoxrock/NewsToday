@@ -20,5 +20,5 @@ NewsToday is a news platform for Windows PC created as a college project as an a
 - Light/dark mode toggle
 - Live previews
 - Fullscreen mode
-- Cross platform
+- Better
 
