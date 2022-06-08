@@ -17,17 +17,11 @@ NewsToday is a news platform for Windows PC created as a college project as an a
 | Free code 100% modifiable |:heavy_check_mark:|
 |---------------------------|------------------|
 | Login & Sign Up           |:heavy_check_mark:|
-|---------------------------|------------------|
 | Intuitive GUI             |:heavy_check_mark:|
-|---------------------------|------------------|
 | Password Security         |:heavy_check_mark:|
-|---------------------------|------------------|
 | News Categories           |:heavy_check_mark:|
-|---------------------------|------------------|
 | Previews Articles         |:heavy_check_mark:|
-|---------------------------|------------------|
 | Rich Text Box             |:heavy_check_mark:|
-|---------------------------|------------------|
 | CRUD Operations           |:heavy_check_mark:|
 
 - Light/dark mode toggle
