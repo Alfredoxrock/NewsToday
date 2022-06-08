@@ -9,6 +9,7 @@ NewsToday is a news platform for Windows PC created as a college project as an a
 
 * c#
 * XAML
+* Example
 
 
 ## Features
