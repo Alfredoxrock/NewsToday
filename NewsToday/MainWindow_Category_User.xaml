@@ -12,7 +12,7 @@
     </Window.DataContext>
 
     <Window.Background>
-        <ImageBrush ImageSource="C:\Users\alf_b\Desktop\Fall 2019\Senior Capstone\NewsToday\Pictures\W4.jpg"/>
+        <ImageBrush ImageSource="C:\Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\Pictures\W4.jpg"/>
     </Window.Background>
     <Grid Height="Auto">
         <ScrollViewer>
