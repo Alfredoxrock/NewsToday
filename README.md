@@ -65,7 +65,14 @@ Showing Article
 
 ------------------------------------------------
 
-Example 
+## About The Project
+
+This is a college project for my senior CAPSTONE class. It is a prototype of
+a news portal where users can create an account and upload their news to the
+desktop application. It still has a room for improvement on the client side, and
+their server side has to be set up to be able to save the information to a database.
+After it has the necessary advances, the first version of the app could be launch on 
+the microsoft store.
 
 
 
