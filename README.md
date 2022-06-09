@@ -25,7 +25,9 @@ NewsToday is a news platform for Windows PC created as a college project as an a
 | CRUD Operations           |:heavy_check_mark:|
 | Light Theme               |:heavy_check_mark:|
 
-Login screen Sample
+Login screen
+
+![App Screenshot](Assets/01.jpg)
 
 
 
