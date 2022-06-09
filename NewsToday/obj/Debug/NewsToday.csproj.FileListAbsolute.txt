@@ -119,3 +119,38 @@ D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\NewsToday.Propertie
 D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\NewsToday.csproj.GenerateResource.cache
 D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\NewsToday.csproj.CoreCompileInputs.cache
 D:\Alfredo's Back Vault\Coding\NewsToday\NewsToday\obj\Debug\NewsToday.exe
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\NewsToday.csproj.AssemblyReference.cache
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\Article_Display.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\Article_Preview.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\MainWindow_Category_User.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\MainWindow_Category.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\MainWindow_User.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\MainWindow.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\MainWindowUser.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\Register.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\User_ArticleInterface.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\Window1.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\App.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\NewsToday_MarkupCompile.cache
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\NewsToday_MarkupCompile.lref
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\NewsToday.exe
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\NewsToday.pdb
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\bin\Debug\NewsToday.exe.config
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\bin\Debug\NewsToday.exe
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\bin\Debug\NewsToday.pdb
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\App.baml
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\Article_Display.baml
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\Article_Preview.baml
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\MainWindow_Category_User.baml
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\MainWindow_Category.baml
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\MainWindow_User.baml
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\MainWindow.baml
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\MainWindowUser.baml
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\Register.baml
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\User_ArticleInterface.baml
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\Window1.baml
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\NewsToday.g.resources
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\NewsToday.Properties.Resources.resources
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\NewsToday.csproj.GenerateResource.cache
+C:\Users\alf_b\Desktop\NewsToday\NewsToday\obj\Debug\NewsToday.csproj.CoreCompileInputs.cache
