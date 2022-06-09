@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="Enews" Height="1824" Width="1729.5" WindowState="Maximized" >
     <Window.Background>
-        <ImageBrush ImageSource="C:\Users\alf_b\Desktop\Fall 2019\Senior Capstone\NewsToday\Pictures\W4.jpg"/>
+        <ImageBrush ImageSource="Visuals\W4.jpg"/>
     </Window.Background>
     <Grid Background="White">
         <Border BorderBrush="Red" BorderThickness="2" HorizontalAlignment="Left" Height="122" Margin="26,101,0,0" VerticalAlignment="Top" Width="220" Background="White"/>
         <Border BorderBrush="Red" BorderThickness="1" HorizontalAlignment="Left" Height="127" Margin="274,96,0,0" VerticalAlignment="Top" Width="1032" Background="White"
                 />
         <Label Content="ENEWS" HorizontalAlignment="Left" Margin="108,26,0,0" VerticalAlignment="Top" Width="126" Height="70" FontSize="36" FontFamily="Dubai Medium" Foreground="Black"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="13,7,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\alf_b\Desktop\Fall 2019\Senior Capstone\NewsToday\Pictures\logo_R5w_icon.ico"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="13,7,0,0" VerticalAlignment="Top" Width="100" Source="Visuals\logo_R5w_icon.ico"/>
         <Canvas x:Name="TopPanel" HorizontalAlignment="Left" Height="48" Margin="261,33,0,0" VerticalAlignment="Top" Width="1075" Background="Transparent">
             <Button
             Style="{StaticResource RoundButtonTemplate}" 

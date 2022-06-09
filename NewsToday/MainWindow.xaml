@@ -12,7 +12,7 @@
     </Window.DataContext>
 
     <Window.Background>
-        <ImageBrush ImageSource="C:\Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\Pictures\W4.jpg"/>
+        <ImageBrush ImageSource=".\Visuals\W4.jpg"/>
     </Window.Background>
     <Grid Height="Auto">
         <ScrollViewer>
@@ -221,7 +221,7 @@
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                     </ListBox>
-                    <Image HorizontalAlignment="Left" Height="299" Margin="10,477,0,0" VerticalAlignment="Top" Width="230" Source="C:\Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\Pictures\Lobo.jpg"/>
+                    <Image HorizontalAlignment="Left" Height="299" Margin="10,477,0,0" VerticalAlignment="Top" Width="230" Source="Visuals\Lobo.jpg"/>
                     <TextBlock HorizontalAlignment="Left" Margin="18,280,0,0" TextWrapping="Wrap" Text="LOBO SPIRIT" VerticalAlignment="Top" FontSize="72" Width="216" FontFamily="Harrington" TextAlignment="Center"/>
 
 

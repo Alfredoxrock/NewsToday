@@ -17,7 +17,7 @@
         <Label Content="ENTER PASSWORD" HorizontalAlignment="Left" Margin="758,506,0,0" VerticalAlignment="Top" Foreground="Black" FontFamily="Century Gothic" FontSize="20"/>
         <Border BorderBrush="Red" BorderThickness="3" HorizontalAlignment="Left" Height="280" Margin="680,112,0,0" VerticalAlignment="Top" Width="334">
             <Border.Background>
-                <ImageBrush ImageSource="C:\Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\Pictures\Lobo2.jpg"/>
+                <ImageBrush ImageSource="Visuals\Lobo2.jpg"/>
             </Border.Background>
         </Border>
         <Border BorderBrush="Red" BorderThickness="3" HorizontalAlignment="Left" Height="50"

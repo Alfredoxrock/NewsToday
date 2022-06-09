@@ -12,7 +12,7 @@
     </Window.DataContext>
 
     <Window.Background>
-        <ImageBrush ImageSource="C:\Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\Pictures\W4.jpg"/>
+        <ImageBrush ImageSource="Visuals\W4.jpg"/>
     </Window.Background>
     <Grid Height="Auto">
         <ScrollViewer>
@@ -25,13 +25,13 @@
 
                     <Border BorderBrush="Black" Background="Red" BorderThickness="0" HorizontalAlignment="Left" Height="2" Margin="10,843,0,0" VerticalAlignment="Top" Width="1320"/>
 
-                    <Image HorizontalAlignment="Left" Height="299" Margin="10,477,0,0" VerticalAlignment="Top" Width="230" Source="C:\Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\Pictures\Lobo.jpg"/>
+                    <Image HorizontalAlignment="Left" Height="299" Margin="10,477,0,0" VerticalAlignment="Top" Width="230" Source="Visuals\Lobo.jpg"/>
                     <TextBlock HorizontalAlignment="Left" Margin="24,752,0,0" TextWrapping="Wrap" Text="PRIDE" VerticalAlignment="Top" FontSize="72" Width="216" FontFamily="Harrington" TextAlignment="Center" Height="86"/>
 
 
 
                     <Label Content="ENEWS" HorizontalAlignment="Left" Margin="108,26,0,0" VerticalAlignment="Top" Width="126" Height="70" FontSize="36" FontFamily="Dubai Medium" Foreground="Black"/>
-                    <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\alf_b\Desktop\Spring 2019\Fall 2019\Senior Capstone - Finished\NewsToday\Pictures\Logo.png"/>
+                    <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="Visuals\Logo.png"/>
                     <Canvas x:Name="TopPanel" HorizontalAlignment="Left" Height="48" Margin="261,33,0,0" VerticalAlignment="Top" Width="1075" Background="Transparent">
                         <Button
             Style="{StaticResource RoundButtonTemplate}" 
